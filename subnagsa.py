@@ -16,5 +16,11 @@ async def on_ready():
 async def on_message(message):
     if message.content.startswith("!명령어"):
         await message.channel.send(embed=discord.Embed(title="제작중", description= "\n\n\n차후추가예정", color=0x00ff00))
+        
+        
+        
+        
+access_token = os.environ [ " BOT_TOKEN " ]
+client.run (access_token)
 
 
