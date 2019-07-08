@@ -15,7 +15,7 @@ async def on_ready():
 @client.event
 async def on_message(message):
     if message.content.startswith("!명령어"):
-        await message.channel.send(embed=discord.Embed(title="제작중", description= "\n\n\n차후추가예정", color=0x00ff00))
+        await message.channel.send(embed=discord.Embed(title="제작중", description= " \n\n\n차후추가예정", color=0x00ff00))
         
         
         
