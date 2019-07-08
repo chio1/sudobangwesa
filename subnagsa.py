@@ -19,7 +19,7 @@ async def on_message(message):
         
         
         
-        
+client.run('NTk3NzI1OTU0MzY1NzE4NTI5.XSMXBA.Q5iVr_ykyrQJvdgoALXh65FgHL4')        
 access_token = os.environ["BOT_TOKEN"]
 client.run(access_token)
 
